@@ -5,7 +5,8 @@ import { revalidatePath } from "next/cache";
 import { clerkClient } from "@clerk/nextjs/server";
 
 import prisma from "@/lib/prisma";
-import { StudentSchema } from "./valid";
+import { StudentSchema } from "@/lib/formValidationSchemas";
+
 
 type CurrentState = { success: boolean; error: boolean };
 
