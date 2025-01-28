@@ -10,8 +10,8 @@ import { META_THEME_COLORS, siteConfig } from "@/config/site"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lama Dev School Management Dashboard",
-  description: "Next.js School Management System",
+  title: "School automation",
+  description: "under going process",
 };
 
 export default function RootLayout({
